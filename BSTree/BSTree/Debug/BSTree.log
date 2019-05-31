@@ -1,0 +1,15 @@
+﻿  test.cpp
+c:\users\韩浩东\source\repos\bstree\bstree\test.cpp(134): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  c:\users\韩浩东\source\repos\bstree\bstree\test.cpp(100): note: 编译 类 模板 成员函数 "bool BSTree<int>::erase(const T &)" 时
+          with
+          [
+              T=int
+          ]
+  c:\users\韩浩东\source\repos\bstree\bstree\test.cpp(239): note: 参见对正在编译的函数 模板 实例化“bool BSTree<int>::erase(const T &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\韩浩东\source\repos\bstree\bstree\test.cpp(228): note: 参见对正在编译的 类 模板 实例化 "BSTree<int>" 的引用
+c:\users\韩浩东\source\repos\bstree\bstree\test.cpp(139): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  BSTree.vcxproj -> C:\Users\韩浩东\source\repos\BSTree\Debug\BSTree.exe
