@@ -1,0 +1,4 @@
+﻿  test.cpp
+c:\users\韩浩东\source\repos\emptybottle\emptybottle\test.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\韩浩东\source\repos\emptybottle\emptybottle\test.cpp(118): warning C4018: “<”: 有符号/无符号不匹配
+  emptybottle.vcxproj -> C:\Users\韩浩东\source\repos\emptybottle\Debug\emptybottle.exe
