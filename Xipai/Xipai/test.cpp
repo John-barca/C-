@@ -57,24 +57,24 @@
 using namespace std;
 
 int main() {
-	int Num_Song;
-	while (cin >> Num_Song) {
+	int NumSong;
+	while (cin >> NumSong) {
 		string command;//记录命令
 		cin >> command;
 		vector<int> Menu;//记录歌曲
 		int result;//记录输出结果
 		int tmp = 0;//记录位置
 		int list = 0;//记录在当前菜单的第几位
-		for (int i = 0; i < Num_Song; i++) {
+		for (int i = 0; i < NumSong; i++) {
 			Menu.push_back(i + 1);
 		}
 		for (int i = 0; i < command.size(); i++) {
-			if (Num_Song <= 4) {
+			if (NumSong <= 4) {
 				
 				if (command[i] == 'U') {
 					if (tmp == 0) {
-						result = Menu[Num_Song - 1];
-						tmp = Num_Song - 1;
+						result = Menu[NumSong - 1];
+						tmp = NumSong - 1;
 					}
 					else{
 						result = Menu[tmp - 1];
@@ -82,7 +82,7 @@ int main() {
 					}
 				}
 				else if (command[i] == 'D') {
-					if (tmp == Num_Song - 1) {
+					if (tmp == NumSong - 1) {
 						result = Menu[0];
 						tmp = 0;
 					}
@@ -92,11 +92,11 @@ int main() {
 					}
 				}
 			}
-			else if (Num_Song > 4) {
+			else if (NumSong > 4) {
 				if (command[i] == 'U') {
 					if (tmp == 0) {
-						result = Menu[Num_Song - 1];
-						tmp = Num_Song - 1;
+						result = Menu[NumSong - 1];
+						tmp = NumSong - 1;
 						list = 3;
 					}
 					else {
@@ -109,7 +109,7 @@ int main() {
 					}
 				}
 				else if (command[i] == 'D') {
-					if (tmp == Num_Song - 1) {
+					if (tmp == NumSong - 1) {
 						result = Menu[0];
 						tmp = 0;
 						list = 0;
@@ -125,7 +125,7 @@ int main() {
 				}
 			}
 		}
-		if (Num_Song <= 4) {
+		if (NumSong <= 4) {
 			for (int i = 0; i < Menu.size(); i++) {
 				cout << Menu[i] << " ";
 			}
