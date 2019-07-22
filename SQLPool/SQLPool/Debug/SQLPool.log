@@ -1,0 +1,4 @@
+﻿  test.cpp
+c:\users\韩浩东\source\repos\sqlpool\sqlpool\test.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\韩浩东\source\repos\sqlpool\sqlpool\test.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+  SQLPool.vcxproj -> C:\Users\韩浩东\source\repos\SQLPool\Debug\SQLPool.exe
